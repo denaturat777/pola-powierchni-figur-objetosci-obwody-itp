@@ -37,7 +37,7 @@ if inp == "a":
             r = float(input("r = "))
             l = float(input("l = "))
             print(f"ppStozka = {pi * r**2 + pi * r * l}")
-        elif figura == "g" or inp == "g":  # Poprawione dla bezpieczeństwa
+        elif inp == "g":
             r = float(input("r = "))
             print(f"ppKuli = {4 * pi * r**2}")
         else:
